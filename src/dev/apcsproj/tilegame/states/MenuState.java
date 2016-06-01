@@ -16,7 +16,8 @@ public class MenuState extends State {
 		super(handler);
 		uiManager = new UIManager(handler);
 		handler.getMouseManager().setUIManager(uiManager);
-
+		
+		//Needs to be changed to Pokemon menu sequence.
 		uiManager.addObject(new UIImageButton(200, 200, 128, 64, Assets.btn_start, new ClickListener() {
 			@Override
 			public void onClick() {
